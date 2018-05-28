@@ -7,8 +7,8 @@ from django.urls import reverse
 from django.views import generic
 from django.utils import timezone
 
-from question import Question
-from choice import Choice
+from models.question import Question
+from models.choice import Choice
 
 
 class IndexView(generic.ListView):

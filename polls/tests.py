@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 
-from polls.question import Question
+from models.question import Question
 
 # Create your tests here.
 
